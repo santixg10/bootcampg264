@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-image: url("discoteca.jpg");
+    background-size: cover; 
+}
+input{
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px;
+    border-color: black;
+    background-color: rgb(235, 229, 229);
+}
+#resultado{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.error{
+    color: red;
+}
+#cuadro{
+    margin: 50px;
+    background-color: rgba(141, 139, 223, 0.603);
+    height: 250px;
+}

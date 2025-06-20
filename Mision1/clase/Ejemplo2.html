@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Haz clic en este parrafo 1</p>
+    <p>Haz clic en este parrafo 2</p>
+    <p>Haz clic en este parrafo 3</p>
+    <script>
+        const parrafos=document.querySelectorAll("p");/* querySelectorAllMira todos las variables olineas que se llamen p */
+        parrafos.forEach(function(p){           /* forEach recorre todos los elementos de todo el docuemnto */
+            p.onclick=function(){
+                alert("Haz hecho clic en: "+this.textContent)
+            }
+        })
+    </script>
+</body>
+</html>

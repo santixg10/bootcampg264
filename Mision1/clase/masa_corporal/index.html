@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de masa corporal</title>
+      <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Masa Corporal</h1>
+    <p>Escribe tu estatura: </p>
+    <input type="number" id="numeestatura"placeholder="Ej; 1.77"><!-- le pide informacion al usuario y le dice que tiene que ser un numero -->
+    <p>Escribe tu peso: </p>
+    <input type="number" id="numepeso"placeholder="Ej; 80">
+    <button onclick="imc()">Mostrar Tabla</button>
+    <div id="resultado"></div><!-- queda vacio por que si el usaurio le da al boton sin colocar nada este va a salir un parrafo en el div diciendo que por favor digite un numero, esto va de la mano en el tablacodigomul -->
+    <script src="./imc.js"></script>
+</body>
+</html>
